@@ -15,7 +15,7 @@
 
 ## Description
 
-In this Challenge, I used Node.js, Express, Sequelize, and Express-Sessions to create a Dynamic CMS-Style Tech Blog where Users can read about topics others have posted, or Login to post their own blogs and articles. The User's login details are encrypted with the bcrypt library to ensure security of passwords stored in the database.
+In this Challenge, I used Node.js, Express, Sequelize, and Express-Sessions to create a Dynamic CMS-Style Tech Blog where Users can read about topics others have posted, or Login to post their own blogs and articles. The User's login details are encrypted with the bcrypt library to ensure security of passwords stored in the database. The app is deployed via Heroku and uses JawsDB for the blog's database.
 
 ## Languages / Technologies Used
 
@@ -30,19 +30,7 @@ In this Challenge, I used Node.js, Express, Sequelize, and Express-Sessions to c
 
 ## Deployment
 
-You Can Find the [Deployed App Here](https://github.com/AbhiBiju/cms-style-blog)
-
-## Usage
-
-Here is a video walkthrough on how to install and use the app:
-
-``
-
-To run this application, use the following command:
-
-```md
-npm start
-```
+You Can Find the [Deployed App Here](https://cms-style-blog.herokuapp.com/)
 
 ## License
 
