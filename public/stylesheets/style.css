@@ -135,7 +135,7 @@ main {
 #views > i:hover {
   color: #3486eb;
   cursor: pointer;
-  font-size: 1.3em;
+  transform: scale(1.5);
 }
 
 .btn-no-style {
@@ -208,13 +208,17 @@ section:nth-child(2) > h2 {
   color: #7d7d7d;
 }
 
-li > img {
+li > a > img {
   border-radius: 15px 15px 0 0;
   max-width: 100%;
 }
 li {
   display: flex;
   flex-flow: column nowrap;
+  transition: 0.4s;
+}
+li:hover {
+  transform: scale(1.1);
 }
 
 .post-inputs {

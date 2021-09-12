@@ -2,7 +2,9 @@
 <ol class="post-list">
   {{#each posts as |post|}}
   <li>
+  <a href='/post/{{id}}'>
   <img src="https://picsum.photos/id/{{id}}/500/200" alt="">
+  </a>
   <div>
     {{> post-info post }}
   </div>
