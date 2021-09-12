@@ -207,7 +207,12 @@ section:nth-child(2) > h2 {
   font-size: 90%;
   color: #7d7d7d;
 }
-
+li > a {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+}
 li > a > img {
   border-radius: 15px 15px 0 0;
   max-width: 100%;
